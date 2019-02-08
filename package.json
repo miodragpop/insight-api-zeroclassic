@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-snowgem",
-  "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api-zeroclassic",
+  "description": "A ZeroClassic blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/snowgem/insight-api-snowgem.git",
+  "repository": "git://github.com/miodragpop/insight-api-zeroclassic.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -42,9 +42,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/snowgem/insight-api-snowgem/issues"
+    "url": "https://github.com/miodragpop/insight-api-zeroclassic/issues"
   },
-  "homepage": "https://github.com/snowgem/insight-api-snowgem",
+  "homepage": "https://github.com/miodragpop/insight-api-zeroclassic",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-snowgem": "snowgem/bitcore-lib-snowgem",
-    "bitcore-message-snowgem": "snowgem/bitcore-message-snowgem",
+    "bitcore-lib-zeroclassic": "git://github.com/miodragpop/bitcore-lib-zeroclassic",
+    "bitcore-message-zeroclassic": "git://github.com/miodragpop/bitcore-message-zeroclassic",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
